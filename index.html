@@ -12,12 +12,22 @@
     <div class="title">SWEATER WEATHER</div>
     <ul>
       <li><a class="active" href="loginpath">Log In</a></li>
+      <li><a class="active" href="registerpath">Register</a></li>
     </ul>
   </nav>
   <script
     src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'>
   </script>
   <script src="main.bundle.js"></script>
-  <script src="lib/index.js"></script>
-</body>
+  <!-- <script src="lib/index.js"></script> -->
+  <script type="text/javascript">
+    $(window).on('scroll', function() {
+      if($(window).scrollTop()) {
+          $('nav').addClass('black');
+      } else {
+          $('nav').removeClass('black');
+      }
+  })
+  </script>
+  </body>
 </html>
