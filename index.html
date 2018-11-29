@@ -2,15 +2,59 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Quantified Self - Diary</title>
+  <title>Sweater Weather</title>
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <link rel="stylesheet" href="lib/reset.css" />
+  <link rel="stylesheet" href="lib/styles.css" />
 </head>
 <body>
-      <!--  the a tag below can link you to another HTML page  -->
-      <!--  if you click the button in the browser right now, you'll get an error because that is not a real file path -->
-      <a href="<file path"><button class="default-button">GO TO OTHER PAGE</button></a>
-    <script
+  <nav>
+    <div class="title">SWEATER WEATHER</div>
+    <ul>
+      <li><a class="active" id="login-tab" href="">Log In</a></li>
+      <li><a class="active" id="register-tab" href="">Register</a></li>
+    </ul>
+    <div class="login-arrow-up hide"></div>
+    <div class="login-form hide">
+      <form>
+        <div class="login-input">
+          <label>Username</label>
+          <input type="text" placeholder="username" required>
+        </div>
+        <div class="login-input">
+          <label>Password</label>
+          <input type="password" placeholder="password" required>
+        </div>
+        <div class="login-input">
+            <input type="submit" value="Login">
+        </div>
+      </form>
+    </div>
+    <div class="register-arrow-up hide"></div>
+    <div class="register-form hide" >
+      <form>
+        <div class="register-input">
+          <label>Username</label>
+          <input type="text" placeholder="username" required>
+        </div>
+        <div class="register-input">
+          <label>Password</label>
+          <input type="password" placeholder="password" required>
+        </div>
+        <div class="register-input">
+            <label>Password-confirmation</label>
+            <input type="password" placeholder="password-confirmation" required>
+        </div>
+        <div class="register-input">
+            <input type="submit" value="Register">
+        </div>
+      </form>
+    </div>
+  </nav>
+  <script
     src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'>
   </script>
   <script src="main.bundle.js"></script>
-</body>
+  <script src="lib/index.js"></script>
+  </body>
 </html>
