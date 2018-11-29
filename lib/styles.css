@@ -62,8 +62,68 @@ nav ul li a:focus {
     outline: none;
 }
 
-nav ul li a:active {
+.tab-color {
     background: #FF5E5C;
     color: #fff;
     border-radius: 6px;
 }
+
+.login-arrow-up {
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid #151515;
+    right: 270px;
+    top: 60px;
+}
+
+.login-form {
+    color: white;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    background: #151515;
+    right: 59px;
+    top: 80px;
+    border-radius: 2px;
+    border-bottom: 5px solid grey;
+}
+
+.login-input {
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.register-arrow-up {
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid #151515;
+    right: 150px;
+    top: 60px;
+}
+
+.register-form {
+    color: white;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    background: #151515;
+    right: 59px;
+    top: 80px;
+    border-radius: 2px;
+    border-bottom: 5px solid grey;
+}
+
+.register-input {
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.hide {
+    display: none;
+  }
