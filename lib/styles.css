@@ -2,6 +2,11 @@ body {
     margin: 0;
     padding: 0;
     font-family: Quicksand;
+    background-image: url('/../assets/3946950248_647023a3b0_o.jpg');
+    background-size: cover; 
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 nav {
@@ -13,10 +18,11 @@ nav {
     padding: 10px 100px;
     box-sizing: border-box;
     transition: .3s;
+    background: rgba(255,255,255,0.8);
 }
 
 nav.black {
-    background: rgba(0,0,0,0.8);
+    background:  rgba(72,69,84,0.8);
     height: 100px;
     padding: 10px 100px;
 }
@@ -45,13 +51,42 @@ nav ul li {
     list-style: none;
 }
 
+.nav-section {
+    margin-right: 400px;
+    margin-top: 20px;
+}
+
+.nav-search {
+    margin-right: 20px;
+    float: left;
+}
+
+input#nav-search-bar {
+    height: 40px;
+    width: 500px;
+    font-size: 20px;
+    border-radius: 22px;
+}
+
+input#nav-search-button {
+    height: 65px;
+    width: 65px;
+    border-radius: 40px;
+    margin-top: -10px;
+    background: #ADA9BB;
+}
+
+
 nav ul li a {
+    margin-left: 10px;
     line-height: 80px;
-    color: #151515;
     padding: 12px 30px;
     text-decoration: none;
     text-transform: uppercase;
     transition: .3s;
+    background: #ADA9BB;
+    color: black;
+    border-radius: 6px;
 }
 
 nav.black ul li a {
@@ -74,7 +109,7 @@ nav ul li a:focus {
     position: absolute;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
-    border-bottom: 20px solid #151515;
+    border-bottom: 20px solid rgba(72,69,84,0.8);
     right: 270px;
     top: 60px;
 }
@@ -83,17 +118,35 @@ nav ul li a:focus {
     color: white;
     position: absolute;
     width: 300px;
-    height: 200px;
-    background: #151515;
+    height: auto;
+    padding: 30px;
+    background: rgba(72,69,84,0.8);
     right: 59px;
     top: 80px;
     border-radius: 2px;
-    border-bottom: 5px solid grey;
 }
 
 .login-input {
     margin-top: 25px;
-    margin-left: 10px;
+    margin-left: 30px;
+}
+
+.login-input input.field{
+    height: 25px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+.login-input input.button-color {
+    font-family: Quicksand;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-left: 75px;
+    padding: 6px;
+    background: #5454CB;
+    color: #fff;
+    border-radius: 10px;
+    border-color: #5454CB;
 }
 
 .register-arrow-up {
@@ -102,7 +155,7 @@ nav ul li a:focus {
     position: absolute;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
-    border-bottom: 20px solid #151515;
+    border-bottom: 20px solid rgba(72,69,84,0.8);
     right: 150px;
     top: 60px;
 }
@@ -111,19 +164,96 @@ nav ul li a:focus {
     color: white;
     position: absolute;
     width: 300px;
-    height: 200px;
-    background: #151515;
+    height: auto;
+    padding: 30px;
+    background: rgba(72,69,84,0.8);
     right: 59px;
     top: 80px;
     border-radius: 2px;
-    border-bottom: 5px solid grey;
 }
 
 .register-input {
     margin-top: 25px;
-    margin-left: 10px;
+    margin-left: 30px;
+}
+
+.register-input input.field{
+    height: 25px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+.register-input input.button-color {
+    font-family: Quicksand;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-left: 75px;
+    padding: 6px;
+    background: #5454CB;
+    color: #fff;
+    border-radius: 10px;
+    border-color: #5454CB;
+}
+
+.band {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    grid-gap: 0px;
+}
+
+.top-card {
+    margin: 200px 40px 40px 40px;
+    font-size: 40px;
+    background: rgba(255,255,255,0.7);
+    box-shadow: 12px 12px 2px 1px rgba(72,69,84,0.8);
+    border-radius: 12px;
+}
+
+.left {
+    float: left;
+    margin-left: 50px;
+}
+
+.right {
+    margin-left: 50px;
+    float: left;
+
+}
+
+.bottom-card {
+    margin: 40px 150px 100px 150px;
+    font-size: 40px;
+    grid-column-start: 1; 
+    grid-column-end: 3; 
+    grid-row-start: 2; 
+    grid-row-end: 2; 
+    font-size: 40px;
+    background: rgba(255,255,255,0.7);
+    box-shadow: 12px 12px 2px 1px rgba(72,69,84,0.8);
+    border-radius: 10px;
+}
+
+.hour {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.day {
+    display: block;
+    margin-left: 50px;
+}
+
+.day h1 {
+    display: inline-block;
+
+}
+
+.day p {
+    display: inline-block;
+
 }
 
 .hide {
     display: none;
-  }
+}

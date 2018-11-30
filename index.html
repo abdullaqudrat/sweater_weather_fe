@@ -2,6 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <meta name='viewport' content='width=device-width, initial-scale=1.0' />
   <title>Sweater Weather</title>
   <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
   <link rel="stylesheet" href="lib/reset.css" />
@@ -11,22 +12,28 @@
   <nav>
     <div class="title">SWEATER WEATHER</div>
     <ul>
+      <div class="nav-section">
+        <div class="nav-search">
+          <li><input id="nav-search-bar" placeholder="  ENTER A CITY TO GET A FORECAST..."></input></li>
+        </div>   
+        <div class="nav-search">     
+          <li><input id="nav-search-button" type="submit" value="SEARCH"></input></li>
+        </div>     
+      </div>
       <li><a class="active" id="login-tab" href="">Log In</a></li>
-      <li><a class="active" id="register-tab" href="">Register</a></li>
+      <li><a class="active" id="register-tab" href="">Sign up</a></li>
     </ul>
     <div class="login-arrow-up hide"></div>
     <div class="login-form hide">
       <form>
         <div class="login-input">
-          <label>Username</label>
-          <input type="text" placeholder="username" required>
+          <input type="text"  class="field" placeholder="  enter username" required>
         </div>
         <div class="login-input">
-          <label>Password</label>
-          <input type="password" placeholder="password" required>
+          <input type="password"  class="field" placeholder="  enter password" required>
         </div>
-        <div class="login-input">
-            <input type="submit" value="Login">
+        <div class="login-input ">
+            <input type="submit" class="button-color" value="LOG IN">
         </div>
       </form>
     </div>
@@ -34,23 +41,115 @@
     <div class="register-form hide" >
       <form>
         <div class="register-input">
-          <label>Username</label>
-          <input type="text" placeholder="username" required>
+          <input type="text"  class="field" placeholder="  enter username" required>
         </div>
         <div class="register-input">
-          <label>Password</label>
-          <input type="password" placeholder="password" required>
+          <input type="password"  class="field" placeholder=" enter password" required>
         </div>
         <div class="register-input">
-            <label>Password-confirmation</label>
-            <input type="password" placeholder="password-confirmation" required>
+            <input type="password" class="field" placeholder="  enter password again" required>
         </div>
         <div class="register-input">
-            <input type="submit" value="Register">
+            <input type="submit" class="button-color" value="SIGN UP">
         </div>
       </form>
     </div>
   </nav>
+  <div class="band">
+    <div class="top-card">
+      <div class="left">
+        <h1>75 f</h1>
+        <p>partly cloudy</p>
+        <p>high: 80</p>
+        <p>low: 65</p>
+      </div>
+      <div class="right">
+        <h1>Denver, CO, USA</h1>
+        <p>Thursday 4 pm</p>
+        <p>December 20th</p>
+      </div>
+    </div>
+    <div class="top-card">
+      <div class="left">
+        <h2>Todays Weather</h2>
+        <p>partly cloudy</p>
+        <h2>Tonights Weather</h2>
+        <p>clear, cool breeze</p>
+      </div>
+      <div class="right">
+        <h2>Humidity</h2>
+        <p>Feels like</p>
+        <p>visibility</p>
+        <p>UV index</p>
+      </div>
+    </div>
+    <div class="bottom-card">
+      <div class="forecast">
+        <div class="hour">
+            <h1>4pm</h1>
+            <p>65 f</p>
+        </div>
+        <div class="hour">
+            <h1>4pm</h1>
+            <p>65 f</p>
+        </div>
+        <div class="hour">
+            <h1>4pm</h1>
+            <p>65 f</p>
+        </div>
+        <div class="hour">
+            <h1>4pm</h1>
+            <p>65 f</p>
+        </div>
+        <div class="hour">
+            <h1>4pm</h1>
+            <p>65 f</p>
+        </div>
+        <div class="hour">
+            <h1>4pm</h1>
+            <p>65 f</p>
+        </div>
+        <div class="hour">
+            <h1>4pm</h1>
+            <p>65 f</p>
+        </div>
+        <div class="hour">
+            <h1>4pm</h1>
+            <p>65 f</p>
+        </div>
+        <div class="day">
+          <h1>Friday</h1>
+          <p>partly cloudy</p>
+          <p>high: 80</p>
+          <p>low: 65</p>
+        </div>
+        <div class="day">
+            <h1>Friday</h1>
+            <p>partly cloudy</p>
+            <p>high: 80</p>
+            <p>low: 65</p>
+          </div> 
+        <div class="day">
+          <h1>Friday</h1>
+          <p>partly cloudy</p>
+          <p>high: 80</p>
+          <p>low: 65</p>
+        </div>
+        <div class="day">
+            <h1>Friday</h1>
+            <p>partly cloudy</p>
+            <p>high: 80</p>
+            <p>low: 65</p>
+        </div>
+        <div class="day">
+              <h1>Friday</h1>
+              <p>partly cloudy</p>
+              <p>high: 80</p>
+              <p>low: 65</p>
+          </div>
+      </div>
+    </div>
+  </div>
   <script
     src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'>
   </script>
