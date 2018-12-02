@@ -15,7 +15,7 @@ nav {
     left: 0;
     width: 100%;
     height: 100px;
-    padding: 10px 100px;
+    padding: 10px 50px 0px 8px;
     box-sizing: border-box;
     transition: .3s;
     background: rgba(255,255,255,0.8);
@@ -24,7 +24,7 @@ nav {
 nav.black {
     background:  rgba(72,69,84,0.8);
     height: 100px;
-    padding: 10px 100px;
+    padding: 10px 50px 0px 8px;
 }
 
 nav div.title {
@@ -52,7 +52,7 @@ nav ul li {
 }
 
 .nav-section {
-    margin-right: 400px;
+    margin-right: 100px;
     margin-top: 20px;
 }
 
@@ -63,13 +63,12 @@ nav ul li {
 
 input#nav-search-bar {
     height: 40px;
-    width: 500px;
+    width: 375px;
     font-size: 20px;
     border-radius: 22px;
     text-align: center;
     font-family: Quicksand;
-    font-size: 28px;
-
+    font-size: 20px;
 }
 
 #nav-search-button {
@@ -91,7 +90,6 @@ input#nav-search-bar {
     background: rgb(169, 156, 216);
     transform: scale(1);
     transition: 0ms
-
 }
 
 nav ul li a {
@@ -127,7 +125,7 @@ nav ul li a:focus {
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
     border-bottom: 20px solid rgba(72,69,84,0.8);
-    right: 270px;
+    right: 215px;
     top: 60px;
 }
 
@@ -173,7 +171,7 @@ nav ul li a:focus {
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
     border-bottom: 20px solid rgba(72,69,84,0.8);
-    right: 150px;
+    right: 89px;
     top: 60px;
 }
 
@@ -220,8 +218,8 @@ nav ul li a:focus {
 }
 
 .top-card {
-    margin: 200px 40px 40px 40px;
-    font-size: 40px;
+    margin: 175px 40px 40px 40px;
+    font-size: 15px;
     background: rgba(255,255,255,0.7);
     box-shadow: 12px 12px 2px 1px rgba(72,69,84,0.8);
     border-radius: 12px;
@@ -235,17 +233,15 @@ nav ul li a:focus {
 .right {
     margin-left: 50px;
     float: left;
-
 }
 
 .bottom-card {
-    margin: 40px 150px 100px 150px;
-    font-size: 40px;
+    margin: 40px;
+    font-size: 10px;
     grid-column-start: 1; 
     grid-column-end: 3; 
     grid-row-start: 2; 
     grid-row-end: 2; 
-    font-size: 40px;
     background: rgba(255,255,255,0.7);
     box-shadow: 12px 12px 2px 1px rgba(72,69,84,0.8);
     border-radius: 10px;
@@ -253,7 +249,8 @@ nav ul li a:focus {
 
 .hour {
     display: inline-block;
-    margin-left: 50px;
+    text-align: center;
+    margin-left: 25px;
 }
 
 .day {
