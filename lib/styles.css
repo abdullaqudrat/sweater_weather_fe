@@ -230,6 +230,10 @@ nav ul li a:focus {
 }
 
 .top-card {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    grid-gap: 0px;
     margin: 175px 40px 40px 40px;
     font-size: 15px;
     background: rgba(255,255,255,0.7);
@@ -237,19 +241,30 @@ nav ul li a:focus {
     border-radius: 12px;
 }
 
-.left {
+.left-first {
+    float: left;
+    font-size: 25px;    
+    margin-left: 50px;
+}
+
+.left-second {
     float: left;
     margin-left: 50px;
 }
 
 .right {
+    font-size: 25px;
     margin-left: 50px;
+    margin-right: 50px;
     float: left;
+}
+
+p.summary {
+    word-break: break-all;
 }
 
 .bottom-card {
     margin: 40px;
-    font-size: 10px;
     grid-column-start: 1; 
     grid-column-end: 3; 
     grid-row-start: 2; 
@@ -261,23 +276,32 @@ nav ul li a:focus {
 
 .hour {
     display: inline-block;
+    font-size: 12px;
     text-align: center;
     margin-left: 25px;
+    padding: 5px;
 }
 
 .day {
-    display: block;
+    display: grid;
+    grid-template-columns: 275px 200px 200px 300px auto;
+    grid-gap: 0px;
     margin-left: 50px;
 }
 
 .day h1 {
     display: inline-block;
+    margin-left: 50px;
+}
+
+.day h2 {
+    display: inline-block;
+    margin-left: 20px;
 
 }
 
 .day p {
     display: inline-block;
-
 }
 
 .hide {
