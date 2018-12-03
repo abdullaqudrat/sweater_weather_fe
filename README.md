@@ -1,79 +1,18 @@
-# Self-Directed Front-End Start Kit
+Sweater Weather is a front end weather app that accessess the Sweater Weather API to display city, weather, and image information onto a single page app.
 
-## Initial Setup
+This app uses:
 
-1. Clone this starter kit repository and rename the repository to anything you'd like in one command:
+* HTML5
+* CSS
+* JQUERY
 
-  ```shell
-  git clone git@github.com:turingschool-projects/self-directed-fe-starter.git <name of your choice>
-  ```
-2. Change into the new director directory.
+Clone this repo down to your machine and in the command line of your project directory
 
-3. Remove the default remote (origin):
+   1. npm install
+   2. npm start (to start your server)
+   
+then visit localhost on your browser
 
-  ```shell
-  git remote rm origin
-  ```
-
-4. Create a new repository on GitHub.
-
-5. Add your new repository remote - **your remote URL and user name will be different in the command below**
-
-  ```shell
-  git remote add origin git@github.com:<YOUR GITHUB NAME>/<PROJECT NAME>.git
-  ```
-
-6. Install the dependencies of the starter kit:
-
-  ```shell
-  npm install
-  ```
-
-7. Add, commit, and push up to your repository:
-
-  ```shell
-  git add .
-  git commit -m "Initial commit using starter kit"
-  git push origin master
-  ```
-
-## Running the Server Locally
-
-To see your code in action locally, you need to fire up a development server. Use the command:
-
-```shell
-npm start
-```
-
-Once the server is running, visit in your browser:
-
-* `http://localhost:8080/` to run your application.
-
-
-## GitHub Pages Setup
-
-This site will be served from GitHub Pages in production.
-
-In order to see your application running on production:
-
-1. From the command line, run `npm run build`.
-
-2. Commit and push your application to GitHub.
-
-3. Visit your repository on Github
-
-4. Go to Settings
-
-5. Under the Github Pages section of Options, select 'master' as your source and click `Save`
-
-Be sure to `npm run build` and commit before each push to master. A few seconds after you push up, you should be able to see your application at <https://your-github-username.github.io/project-name>.
-
-
-## Built With
-
-* [JavaScript](https://www.javascript.com/)
-* [jQuery](https://jquery.com/)
-* [Express](https://expressjs.com/)
-* [Mocha](https://mochajs.org/)
-* [Chai](https://chaijs.com/)
+<img width="1436" alt="screen shot 2018-12-01 at 10 39 41 pm" src="https://user-images.githubusercontent.com/38393041/49381236-b1b72380-f6d0-11e8-972c-5f17f927b2f5.png">
+<img width="1434" alt="screen shot 2018-12-03 at 8 00 04 am" src="https://user-images.githubusercontent.com/38393041/49381619-8da81200-f6d1-11e8-83e8-9f5c32b70843.png">
 
