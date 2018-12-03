@@ -51,6 +51,12 @@ nav ul li {
     list-style: none;
 }
 
+nav ul li a:hover {
+    background: #FF5E5C;
+    color: #fff;
+    border-radius: 6px;
+}
+
 .nav-section {
     margin-right: 100px;
     margin-top: 20px;
@@ -220,6 +226,12 @@ nav ul li a:focus {
     background: rgba(255,255,255,0.8);
     box-shadow: 6px 4px 11px 1px rgba(72,69,84,0.8);
     border-radius: 12px;
+    transition: .3s;
+}
+
+.background-pic-title:hover {
+    background: rgba(200,200,200,0.8);
+    transform: scale(1.5)
 }
 
 .band {
