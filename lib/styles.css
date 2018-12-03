@@ -51,6 +51,12 @@ nav ul li {
     list-style: none;
 }
 
+nav ul li a:hover {
+    background: #FF5E5C;
+    color: #fff;
+    border-radius: 6px;
+}
+
 .nav-section {
     margin-right: 100px;
     margin-top: 20px;
@@ -220,6 +226,12 @@ nav ul li a:focus {
     background: rgba(255,255,255,0.8);
     box-shadow: 6px 4px 11px 1px rgba(72,69,84,0.8);
     border-radius: 12px;
+    transition: .3s;
+}
+
+.background-pic-title:hover {
+    background: rgba(200,200,200,0.8);
+    transform: scale(1.5)
 }
 
 .band {
@@ -230,6 +242,10 @@ nav ul li a:focus {
 }
 
 .top-card {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    grid-gap: 0px;
     margin: 175px 40px 40px 40px;
     font-size: 15px;
     background: rgba(255,255,255,0.7);
@@ -237,19 +253,30 @@ nav ul li a:focus {
     border-radius: 12px;
 }
 
-.left {
+.left-first {
+    float: left;
+    font-size: 25px;    
+    margin-left: 50px;
+}
+
+.left-second {
     float: left;
     margin-left: 50px;
 }
 
 .right {
+    font-size: 25px;
     margin-left: 50px;
+    margin-right: 50px;
     float: left;
+}
+
+p.summary {
+    word-break: break-all;
 }
 
 .bottom-card {
     margin: 40px;
-    font-size: 10px;
     grid-column-start: 1; 
     grid-column-end: 3; 
     grid-row-start: 2; 
@@ -261,23 +288,49 @@ nav ul li a:focus {
 
 .hour {
     display: inline-block;
+    font-size: 12px;
     text-align: center;
     margin-left: 25px;
+    padding: 5px;
+}
+
+#hour-weather-icon {
+    height: 65px;
+    width: 65px;
+    border-radius: 40px;
+    margin: 10px;
+    background: #ADA9BB;
+    padding: 5px;
 }
 
 .day {
-    display: block;
+    display: grid;
+    grid-template-columns: 275px 200px 200px 300px auto;
+    grid-gap: 0px;
     margin-left: 50px;
+    margin-top: 25px;
 }
 
 .day h1 {
     display: inline-block;
+}
 
+.day h2 {
+    display: inline-block;
 }
 
 .day p {
     display: inline-block;
+    margin-top: 25px;
+}
 
+#day-weather-icon {
+    height: 30px;
+    width: 30px;
+    border-radius: 40px;
+    margin-top: -15px;
+    background: #ADA9BB;
+    padding: 5px;
 }
 
 .hide {
