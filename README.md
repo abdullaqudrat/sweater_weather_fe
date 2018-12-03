@@ -2,9 +2,9 @@ Sweater Weather is a front end weather app that accessess the Sweater Weather AP
 
 This app uses:
 
-HTML5
-CSS
-JQUERY
+* HTML5
+* CSS
+* JQUERY
 
 Clone this repo down to your machine and in the command line of your project directory
 
