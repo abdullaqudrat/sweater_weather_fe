@@ -294,26 +294,43 @@ p.summary {
     padding: 5px;
 }
 
+#hour-weather-icon {
+    height: 65px;
+    width: 65px;
+    border-radius: 40px;
+    margin: 10px;
+    background: #ADA9BB;
+    padding: 5px;
+}
+
 .day {
     display: grid;
     grid-template-columns: 275px 200px 200px 300px auto;
     grid-gap: 0px;
     margin-left: 50px;
+    margin-top: 25px;
 }
 
 .day h1 {
     display: inline-block;
-    margin-left: 50px;
 }
 
 .day h2 {
     display: inline-block;
-    margin-left: 20px;
-
 }
 
 .day p {
     display: inline-block;
+    margin-top: 25px;
+}
+
+#day-weather-icon {
+    height: 30px;
+    width: 30px;
+    border-radius: 40px;
+    margin-top: -15px;
+    background: #ADA9BB;
+    padding: 5px;
 }
 
 .hide {
