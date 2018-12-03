@@ -1,3 +1,11 @@
+Sweater Weather is a front end weather app that accessess the Sweater Weather API to display city, weather, and image information onto a single page app.
+
+This app uses:
+
+HTML5
+CSS
+JQUERY
+
 Clone this repo down to your machine and in the command line of your project directory
 
    1. npm install
