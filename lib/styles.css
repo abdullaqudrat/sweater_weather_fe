@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Quicksand;
-    background-image: url('/../assets/3946950248_647023a3b0_o.jpg');
+    background-image: url('/../assets/588-raindrops-on-the-window-1920x1080-photography-wallpaper.jpg');
     background-size: cover; 
     background-position: top;
     background-repeat: no-repeat;
@@ -208,6 +208,18 @@ nav ul li a:focus {
     color: #fff;
     border-radius: 10px;
     border-color: #5454CB;
+}
+
+.background-pic-title {
+    position: fixed;
+    margin: 118px 40px 40px 40px;
+    padding: 8px;
+    height: auto;
+    width: auto;
+    font-size: 10px;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 6px 4px 11px 1px rgba(72,69,84,0.8);
+    border-radius: 12px;
 }
 
 .band {
