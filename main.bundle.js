@@ -147,7 +147,6 @@
 
 	// search triggers get weather function
 	navSearchButton.click(function () {
-	    event.preventDefault();
 	    getWeather();
 	    getBackground();
 	});
