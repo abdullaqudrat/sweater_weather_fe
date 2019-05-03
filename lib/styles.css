@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Quicksand;
-    background-image: url('/../assets/588-raindrops-on-the-window-1920x1080-photography-wallpaper.jpg');
+    background-image: url('/lib/images/588-raindrops-on-the-window-1920x1080-photography-wallpaper.jpg');
     background-size: cover; 
     background-position: top;
     background-repeat: no-repeat;
