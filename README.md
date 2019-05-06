@@ -1,4 +1,4 @@
-Sweater Weather is a front end weather app that accessess the Sweater Weather API to display city, weather, and image information onto a single page app.
+Sweater Weather is a front end weather app that accessess the [Sweater Weather API](https://github.com/abdullaqudrat/sweater_weather_api) to display city, weather, and image information onto a single page app.
 
 To visit live app:
 
