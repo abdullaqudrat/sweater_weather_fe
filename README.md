@@ -11,9 +11,10 @@ https://abdullaqudrat.github.io/sweater_weather_fe/
 
 This app uses:
 
+* JavaScript/JQUERY
 * HTML5
 * CSS
-* JQUERY
+
 
 Clone this repo down to your machine and in the command line of your project directory
 
